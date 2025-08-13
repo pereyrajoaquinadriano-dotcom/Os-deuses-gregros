@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mitologia Grega</title>
+<style>
+    :root {
+        --gold: #d4af37;
+        --bg: #111;
+        --card-bg: #1a1a1a;
+        --text: #fff;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Cinzel', serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+    }
+    header {
+        background: url('https://upload.wikimedia.org/wikipedia/commons/f/f1/Parthenon_from_west.jpg') center/cover no-repeat;
+        padding: 80px 20px;
+        text-align: center;
+        color: var(--text);
+        text-shadow: 2px 2px 5px black;
+    }
+    header h1 {
+        font-size: 3rem;
+        color: var(--gold);
+    }
+    header p {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+    main {
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    section {
+        margin-bottom: 40px;
+    }
+    section h2 {
+        color: var(--gold);
+        margin-bottom: 15px;
+        border-bottom: 2px solid var(--gold);
+        padding-bottom: 5px;
+    }
+    .card {
+        background: var(--card-bg);
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .card h3 {
+        color: var(--gold);
+        margin-bottom: 5px;
+    }
+    ul {
+        list-style: disc;
+        margin-left: 20px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    input, textarea {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+    button {
+        background: var(--gold);
+        color: black;
+        padding: 10px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    button:hover {
+        opacity: 0.9;
+    }
+    footer {
+        text-align: center;
+        padding: 15px;
+        font-size: 0.9rem;
+        background: #000;
+        color: #aaa;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Mitologia Grega</h1>
+    <p>Explore o mundo fascinante dos deuses, lendas e curiosidades da Grécia Antiga.</p>
+</header>
+<main>
+    <section>
+        <h2>Deuses Principais</h2>
+        <div class="card">
+            <h3>Zeus</h3>
+            <p>Deus do céu e do trovão, governante do Monte Olimpo.</p>
+        </div>
+        <div class="card">
+            <h3>Atena</h3>
+            <p>Deusa da sabedoria, estratégia e artes da guerra.</p>
+        </div>
+        <div class="card">
+            <h3>Poseidon</h3>
+            <p>Deus dos mares, terremotos e cavalos.</p>
+        </div>
+        <div class="card">
+            <h3>Hades</h3>
+            <p>Deus do submundo e guardião das almas.</p>
+        </div>
+        <div class="card">
+            <h3>Apolo</h3>
+            <p>Deus da luz, música, poesia e profecia.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Curiosidades</h2>
+        <ul>
+            <li>O Monte Olimpo era considerado a morada sagrada dos deuses.</li>
+            <li>Zeus era conhecido por suas inúmeras aventuras amorosas.</li>
+            <li>Atena nasceu da cabeça de Zeus, já adulta e armada.</li>
+            <li>Poseidon possuía um tridente capaz de provocar terremotos.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contato</h2>
+        <form>
+            <input type="text" placeholder="Seu nome">
+            <input type="email" placeholder="Seu e-mail">
+            <textarea placeholder="Escreva sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>© 2025 Mitologia Grega - Projeto Educacional</p>
+</footer>
+</body>
+</html>
